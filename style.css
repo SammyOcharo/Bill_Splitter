@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.container__wrapper {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin-left: 29em;
+    margin-right: 29em;
+    margin-top: 5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.display {
+    width: 450px;
+    text-align: center;
+}
+
+.calculator {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.tips {
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tips input {
+    padding-right: 2rem;
+}
+
+.face__wrapper {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.round__to {
+    background-color: black;
+    width: 100%;
+    padding-top: -5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round__to input {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.round__to input[type='radio']:checked:after {
+    color: yellow;
+}
+
+.input__tip {
+    width: 98.5%;
+    height: 25px;
+    outline: none;
+    background-color: gray;
+    text-align: center;
+    cursor: pointer;
+    background-color: grey;
+    border: solid black 0.5px;
+}
+
+.explanation {
+    color: white;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.faces {
+    background-color: green;
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faces:hover {
+    background-color: black;
+}
+
+.tips input {
+    cursor: pointer;
+}
+
+.display-box {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+    border: solid black 0.5px;
+    color: white;
+    align-self: center;
+    width: 29vw;
+    height: 40px;
+}
+
+.button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: solid black 0.5px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    outline: none;
+}
+
+.button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
